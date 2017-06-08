@@ -184,5 +184,5 @@ midea
 
 Red nodes are weights, orange ones operations, and blue ones variables.
 
-![PyTorch forward graph](./pytorch_model.svg)
+![PyTorch forward graph](pytorch_model.svg)
 
