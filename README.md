@@ -182,7 +182,15 @@ midea
 ```
 # PyTorch Graph visualization
 
-Red nodes are weights, orange ones operations, and blue ones variables.
+Red nodes are weights, orange ones operations, and blue ones variables. Input at top, output at bottom.
 
 ![PyTorch forward graph](pytorch_model.png)
+
+
+# Tensorflow Graph visualization
+
+Visualization with Tensorboard. Gives a better high-level overview. Note input is at the bottom, and output is at the
+top.
+
+![Tensorflow forward graph](tf_model.png)
 
