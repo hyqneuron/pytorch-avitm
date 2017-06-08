@@ -22,7 +22,7 @@ parser.add_argument('-o', '--optimizer',        type=str,   default='Adam')
 parser.add_argument('-r', '--learning-rate',    type=float, default=0.002)
 parser.add_argument('-m', '--momentum',         type=float, default=0.99)
 parser.add_argument('-e', '--num-epoch',        type=int,   default=80)
-parser.add_argument('-q', '--init-mult',        type=float, default=6.0)    # multiplier in initialization of decoder weight
+parser.add_argument('-q', '--init-mult',        type=float, default=1.0)    # multiplier in initialization of decoder weight
 parser.add_argument('-v', '--variance',         type=float, default=0.995)  # default variance in prior normal
 parser.add_argument('--start',                  action='store_true')        # start training at invocation
 parser.add_argument('--nogpu',                  action='store_true')        # do not use GPU acceleration

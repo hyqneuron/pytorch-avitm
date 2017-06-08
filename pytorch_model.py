@@ -34,8 +34,8 @@ class ProdLDA(nn.Module):
         self.register_buffer('prior_logvar',  prior_logvar)
         # initialize decoder weight
         if ac.init_mult != 0:
-            std = 1. / math.sqrt( ac.init_mult * (ac.num_topic + ac.num_input))
-            self.decoder.weight.data.uniform_()
+            #std = 1. / math.sqrt( ac.init_mult * (ac.num_topic + ac.num_input))
+            self.decoder.weight.data.uniform_(0, ac.init_mult)
         # remove BN's scale parameters
         self.logvar_bn .register_parameter('weight', None)
         self.mean_bn   .register_parameter('weight', None)
