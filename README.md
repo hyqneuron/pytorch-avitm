@@ -180,5 +180,9 @@ midea
 ('The approximated perplexity is: ', 1152.8633604900842)
 
 ```
+# PyTorch Graph visualization
 
+Red nodes are weights, orange ones operations, and blue ones variables.
+
+![PyTorch forward graph](./pytorch_model.svg)
 
