@@ -144,7 +144,7 @@ def visualize():
     register_vis_hooks(model)
     recon = model(input, compute_loss=False)
     remove_vis_hooks()
-    save_visualization('pytorch_model')
+    save_visualization('pytorch_model', 'jpg')
 
 if __name__=='__main__' and args.start:
     make_data()
