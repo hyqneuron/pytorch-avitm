@@ -19,6 +19,8 @@ perplexity, as testing right now isn't parallelized.
 
 # Running the code
 
+Code can be run with pytorch 0.1.12. Subsequent versions of pytorch upgraded several interface and broke the code.
+
 ```bash
 
 # PyTorch version
